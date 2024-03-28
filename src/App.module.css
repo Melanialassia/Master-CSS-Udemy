@@ -10,6 +10,7 @@
   font-size: normal;
 }
 
+/* HEADER*/
 .header {
   min-width: 1024px; /* tiene este ancho como minino */
   width: 100%;
@@ -46,6 +47,7 @@
   text-shadow: 0px 2px 1px #333333, 0px 0px 4px #70b231; /* se le agrega un color más a la sombra*/
 }
 
+/* NAVBAR */
 .menu {
   width: 100%;
   height: 40px;
@@ -88,7 +90,7 @@
   box-shadow: 0px 0px 4px green inset; /* con el inset añadimos sombra interna*/
 }
 
-/* menu desplegable*/
+/* MENU DESPLEGABLE*/
 .menu > ul > li > ul {
   /* lo que vamos hacer es esconder ese menu desplegable y solamente se va a mostrar cuando el usuario pase el cursos por encima*/
   display: none;
@@ -119,4 +121,38 @@
   /* esto para que cuando el cliente pase su mouse dentro de el menu desplegable*/
   box-shadow: 0px 0px 6px #ccc inset;
   background-color: rgb(238, 237, 237);
+}
+
+/* CONTENIDO DE LA PAGINA*/
+.container {
+    width: 1250px;
+    min-height: 1100px;
+    margin: 0px auto;
+}
+
+/* LATERAL MENU*/
+.lateralMenu {
+    width: 200px;
+    float: left; /*se ubica en el lado izquierdo de la pantalla*/
+    margin: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 2px #ccc;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.widget{
+    display: block;
+    width: 180px;
+    margin: 5px auto;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-size: 14px;
+    border-bottom: 1px dashed #333333;
+}
+
+.widget:last-child{
+    border-bottom: none;
+    margin-bottom: 15px;
 }
