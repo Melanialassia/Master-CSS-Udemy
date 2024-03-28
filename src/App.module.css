@@ -84,6 +84,39 @@
 }
 
 .menu > ul > li:hover {
-    background-color: #70b231;
-    box-shadow: 0px 0px 4px green inset; /* con el inset añadimos sombra interna*/
+  background-color: #70b231;
+  box-shadow: 0px 0px 4px green inset; /* con el inset añadimos sombra interna*/
+}
+
+/* menu desplegable*/
+.menu > ul > li > ul {
+  /* lo que vamos hacer es esconder ese menu desplegable y solamente se va a mostrar cuando el usuario pase el cursos por encima*/
+  display: none;
+  position: absolute; /* lo que va hacer es que cuando se muestre este nuevo menu, cuando sobresalga no afecte el resto de los elementos*/
+  width: 150px;
+  box-shadow: 0px 2px 2px gray;
+  z-index: 1; /* para que se muestre por encima de otro elemento*/
+}
+
+.menu > ul > li:hover > ul {
+  display: block;
+}
+
+.menu > ul > li:hover > ul > li {
+  background-color: #f2f1f0;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 8px;
+  line-height: 25px; /* alineamos verticalmente*/
+  font-size: 13px;
+  transition: all 300ms;
+}
+
+.menu > ul > li:hover > ul > li a {
+  color: #666666;
+}
+
+.menu > ul > li:hover > ul > li:hover {
+  /* esto para que cuando el cliente pase su mouse dentro de el menu desplegable*/
+  box-shadow: 0px 0px 6px #ccc inset;
+  background-color: rgb(238, 237, 237);
 }

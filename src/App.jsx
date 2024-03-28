@@ -12,54 +12,53 @@ function App() {
       <nav className={style.menu}>
         <ul>
           <li>
-            <a href="#">
-Inicio
-            </a>
+            <a href="#">Inicio</a>
           </li>
           <li>
-            <a href="#">
-              Contenido
-            </a>
+            <a href="#">Contenido</a>
           </li>
           <li>
-            <a href="#">
-              Requerimientos
-            </a>
+            <a href="#">Requerimientos</a>
           </li>
           <li>
-            <a href="#">
-              Lenguajes
-            </a>
+            <a href="#">Lenguajes</a>
+            <ul>
+              <li>
+                <a href="#">HTML</a>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+              </li>
+            </ul>
           </li>
           <li>
-            <a href="#">
-              Frameworks
-            </a>
+            <a href="#">Frameworks</a>
+            <ul>
+              <li>
+                <a href="#">LESS</a>
+              </li>
+              <li>
+                <a href="#">SASS</a>
+              </li>
+              <li>
+                <a href="#">Bootstap 4</a>
+              </li>
+            </ul>
           </li>
           <li>
-            <a href="#">
-              Proyectos
-            </a>
+            <a href="#">Proyectos</a>
           </li>
           <li>
-            <a href="#">
-              Instructor
-            </a>
+            <a href="#">Instructor</a>
           </li>
           <li>
-            <a href="#">
-              Reseñas
-            </a>
+            <a href="#">Reseñas</a>
           </li>
           <li>
-            <a href="#">
-              Blog
-            </a>
+            <a href="#">Blog</a>
           </li>
           <li>
-            <a href="#">
-              Contacto
-            </a>
+            <a href="#">Contacto</a>
           </li>
         </ul>
       </nav>
