@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "nevis";
+  src: url(assets/fonts/nevis.eot);
+  src: url(assets//fonts/nevis.eot?iefix) format("embedded-opentype"),
+    url(assets//fonts/nevis.woff) format("woff"),
+    url(assets//fonts/nevis.ttf) format("truetype"),
+    url(assets//fonts/nevis.svg) format("svg");
+  /* esto lo hacemos por si no llega a cargar la primer fuente, carga la que le sigue*/
+  font-weight: normal;
+  font-size: normal;
+}
+
+.header {
+  min-width: 1024px; /* tiene este ancho como minino */
+  width: 100%;
+  height: 250px;
+  margin: 0px auto; /* para centrar el div en el caso de ser necesario*/
+}
+
+.logo {
+  width: 770px;
+  margin: 0px auto; /* centramos la caja del logo */
+  padding-top: 20px;
+}
+
+.logo img {
+  display: block; /* se comporte como un bloque*/
+  text-align: center;
+  margin: 0px auto;
+  width: 140px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #70b231;
+  font-family: "nevis";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 10px;
+  text-shadow: 0px 2px 1px #333333;
+  transition: all 300ms;
+}
+
+.header h1:hover {
+    text-shadow: 0px 2px 1px #333333, 0px 0px 4px #70b231; /* se le agrega un color más a la sombra*/
+}
