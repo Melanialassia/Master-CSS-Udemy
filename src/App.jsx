@@ -327,8 +327,15 @@ function App() {
             </article>
           </section>
         </div>
-        <footer></footer>
+        <div className={style.clearFloat} />
+        <div className={style.history}>
+          <a href="#">[Ver historico de noticias]</a>
+        </div>
       </div>
+      <div className={style.clearFloat} />
+      <footer className={style.footer}>
+        <p>&copy; Melani Alassia - Curso de Udemy- Master en CSS </p>
+      </footer>
     </>
   );
 }

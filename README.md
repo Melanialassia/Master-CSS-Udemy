@@ -1,2 +1,4 @@
 
-![Imagen del proyecto]("../public/design.png");
+<img src="public/desing.png">
+
+
